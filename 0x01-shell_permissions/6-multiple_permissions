@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ug+x $file_path
+chmod u+x,g+x,o-rw $file_path
