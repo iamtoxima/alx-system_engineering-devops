@@ -1,2 +1,2 @@
 #!/bin/bash
-file_path="0x01-shell_permissions/hello" chmod ug+x $file_path; chmod o+r $file_path
+file_path="0x01-shell_permissions/hello"; (chmod ug+x $file_path; chmod o+r $file_path); echo "Permissions updated for 'hello' file"
