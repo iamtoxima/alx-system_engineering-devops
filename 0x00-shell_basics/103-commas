@@ -1,2 +1,2 @@
 #!/bin/bash
-shopt -s extglob; GLOBIGNORE=.:..; printf '%s,' *([A-Z])* | sed 's/,$//'; echoo
+Ls -pmao
